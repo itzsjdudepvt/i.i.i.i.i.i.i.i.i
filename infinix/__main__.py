@@ -11,7 +11,7 @@ for name in files:
   with open(name) as a:
     pxt = Path(a.name)
     plug_name = pxt.stem
-    load_plug(pkug_name.replace(".py", ""))
+    load_plug(plug_name.replace(".py", ""))
     
 bot1.start()
 bot2.start()
