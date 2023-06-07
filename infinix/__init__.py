@@ -2,7 +2,7 @@ from telethon import TelegramClient
 from telethon.sessions import StringSession 
 import logging
 import time
- 
+import os
   
 api_id = os.environ.get("api_id", None)
 api_hash = os.environ.get("api_hash", None)
