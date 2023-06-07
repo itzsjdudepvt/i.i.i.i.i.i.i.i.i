@@ -67,7 +67,7 @@ async def start(event):
   await add(bot2,nileshdes,nilesh)
   await add(bot3,abhides,abhi) 
   await add(bot4,sarwandes,sarwan)
-  await add(bot2,nileshdes,nilesh)
+  await add(bot5,nileshdes,nilesh)
   
            
  
