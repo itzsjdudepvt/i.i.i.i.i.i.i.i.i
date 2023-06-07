@@ -33,7 +33,7 @@ except Exception as e:
 try:    
   bot4.start()
 except Exception as e:
-  await pikalog.info(str(e))  
+  pikalog.info(str(e))  
 try:    
   bot5.start()
 except Exception as e:
