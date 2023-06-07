@@ -27,7 +27,6 @@ nileshdes=-1001909694342
 
 
 async def add(client,dest,target,ev):
-  await client.start()
   a = await client.get_participants(target, aggressive=True)
   for i in a:
     if not i.bot:
