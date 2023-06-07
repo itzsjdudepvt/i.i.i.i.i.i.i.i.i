@@ -1,7 +1,8 @@
 import glob 
 from pathlib import Path 
 from infinix.utils import load_plug
-import logging import getLogger
+import logging 
+from logging import getLogger
 from . import bot,bot1,bot2,bot3,bot4,bot5
 pikalog = getLogger(__name__)
 
