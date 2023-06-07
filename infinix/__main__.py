@@ -22,7 +22,7 @@ try:
   bot4.start()
   bot5.start()
 except:
-  break
+  
 print("ClBot_started")
 
 if __name__ == "__main__":
