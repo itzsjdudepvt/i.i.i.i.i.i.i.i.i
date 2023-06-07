@@ -26,7 +26,7 @@ nileshdes=-1001909694342
 #b5 nilesh ji 
 
 
-async def add(client,dest,target);
+async def add(client,dest,target):
   await client.start()
   a = await client.get_participants(target, aggressive=True)
   for i in a:
