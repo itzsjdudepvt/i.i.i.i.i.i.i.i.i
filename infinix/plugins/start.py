@@ -63,11 +63,11 @@ async def start(event):
 
 @bot.on(events.NewMessage(incoming = True, pattern = "/add"))
 async def start(event):
-  await add(bot1,sarwan,sarwandes)
-  await add(bot2,nilesh,nileshdes)
-  await add(bot3,abhi,abhides) 
-  await add(bot4,sarwan,sarwandes)
-  await add(bot2,nilesh,nileshdes)
+  await add(bot1,sarwandes,sarwan)
+  await add(bot2,nileshdes,nilesh)
+  await add(bot3,abhides,abhi) 
+  await add(bot4,sarwandes,sarwan)
+  await add(bot2,nileshdes,nilesh)
   
            
  
