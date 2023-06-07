@@ -41,7 +41,7 @@ async def start():
     pikalog.info(str(e))
     
     
-  bot.run_until_disconnected()
+  await bot.run_until_disconnected()
 print("ClBot_started")
 
 if __name__ == "__main__":
