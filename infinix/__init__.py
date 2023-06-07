@@ -1,5 +1,5 @@
 from telethon import TelegramClient
-from telethon.sessions import StringSesssion 
+from telethon.sessions import StringSession 
 import logging
 import time
  
