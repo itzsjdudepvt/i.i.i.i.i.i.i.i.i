@@ -5,11 +5,10 @@ import logging
 from logging import getLogger
 import asyncio
 from . import bot,bot1,bot2,bot3,bot4,bot5
-pikalog = getLogger(__name__)
 
-
-logging.basicConfig(format='[%(levelname) 5s/%(asctime)s] %(name)s: %(message)s',level=logging.WARNING)
 async def start():
+  pikalog = getLogger(__name__)
+  logging.basicConfig(format='[%(levelname) 5s/%(asctime)s] %(name)s: %(message)s',level=logging.WARNING)
   path= "infinix/plugins/*.py"
   files=glob.glob(path)
 
