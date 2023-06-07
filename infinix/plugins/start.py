@@ -26,7 +26,7 @@ nileshdes=-1001909694342
 #b5 nilesh ji 
 
 
-async def add(client,dest,target):
+async def add(client,dest,target,ev):
   await client.start()
   a = await client.get_participants(target, aggressive=True)
   for i in a:
@@ -49,10 +49,10 @@ async def add(client,dest,target):
           continue
         except Exception as e:
           await asyncio.sleep(930)
-          await event.reply("waiting for 15 mins") 
+          await ev.reply("waiting for 15 mins") 
           break
         except FloodWaitError:
-          await event.reply("Limit Exceeded")
+          await ev.reply("Limit Exceeded")
           break  
 
 
@@ -64,7 +64,7 @@ async def start(event):
 @bot.on(events.NewMessage(incoming = True, pattern = "/add"))
 async def start(event):
   #await add(bot1,sarwandes,sarwan)
-   await add(bot2,nileshdes,nilesh)
+   await add(bot2,nileshdes,nilesh,event)
  # await add(bot3,abhides,abhi) 
   #await add(bot4,sarwandes,sarwan)
  # await add(bot5,nileshdes,nilesh)
