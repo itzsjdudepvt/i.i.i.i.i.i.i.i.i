@@ -30,7 +30,7 @@ async def add(client,dest,target,ev):
   a = await client.get_participants(target, aggressive=True)
   for i in a:
     if not i.bot:
-      if "Online in str(i.status):
+      if "Online" in str(i.status):
         try: 
            await client(functions.channels.InviteToChannelRequest(channel=dest,users=[i]))
         except UserPrivacyRestrictedError:
