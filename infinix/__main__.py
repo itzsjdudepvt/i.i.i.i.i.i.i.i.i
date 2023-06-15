@@ -49,7 +49,11 @@ except Exception as e:
 print("ClBot_started")
 
 if __name__ == "__main__":
-  bot.run_until_disconnected()
+  bot1.run_until_disconnected()
+  bot2.run_until_disconnected()
   
+  bot3.run_until_disconnected()
+  bot4.run_until_disconnected()
 
+  bot.run_until_disconnected()
     
