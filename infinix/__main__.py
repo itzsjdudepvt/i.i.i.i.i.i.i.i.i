@@ -18,26 +18,25 @@ for name in files:
 try:    
   bot1.start()
 except Exception as e:
-  pikalog.info(str(e))
+  print(str(e))
 try:    
   bot2.start()
 except Exception as e:
-  pikalog.info(str(e))
+  print(str(e))
 try:    
   bot3.start()
 except Exception as e:
-  pikalog.info(str(e))
+  print(str(e))
 try:    
   bot4.start()
 except Exception as e:
-  pikalog.info(str(e))  
+  print(str(e)) 
 try:    
   bot5.start()
 except Exception as e:
-  pikalog.info(str(e))
+  print(str(e))
     
     
-
 print("ClBot_started")
 
 if __name__ == "__main__":
