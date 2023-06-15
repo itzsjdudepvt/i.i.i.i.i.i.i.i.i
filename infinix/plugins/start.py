@@ -31,20 +31,19 @@ async def add(client,dest,target,ev):
   for i in a:
     if not i.bot:
       if "Online in str(i.status):
-        await asyncio.sleep(5)
         try: 
            await client(functions.channels.InviteToChannelRequest(channel=dest,users=[i]))
         except UserPrivacyRestrictedError:
           await asyncio.sleep(2)
           continue
         except UserNotMutualContactError:
-          await asyncio.sleep(2)
+          await asyncio.sleep(4)
           continue
         except UserChannelsTooMuchError:
-          await asyncio.sleep(2)
+          await asyncio.sleep(4)
           continue
         except UserAlreadyParticipantError:
-          await asyncio.sleep(2)
+          await asyncio.sleep(4)
           continue
         except Exception as e:
           await asyncio.sleep(930)
