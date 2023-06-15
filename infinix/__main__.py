@@ -8,6 +8,8 @@ from . import bot,bot1,bot2,bot3,bot4,bot5
 logging.basicConfig(
         format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
         level=logging.INFO)
+
+log=logging.getLogger("main")
 path= "infinix/plugins/*.py"
 files=glob.glob(path)
 
@@ -19,24 +21,29 @@ for name in files:
       
 try:    
   bot1.start()
+  log.info("c1 Started")      
 except Exception as e:
-  print(str(e))
+  log.info(str(e))
 try:    
   bot2.start()
+  log.info("c2 Started")
 except Exception as e:
-  print(str(e))
+  log.info(str(e))
 try:    
   bot3.start()
+  log.info("c3 Started")
 except Exception as e:
-  print(str(e))
+  log.info(str(e))
 try:    
   bot4.start()
+  log.info("c4 Started")
 except Exception as e:
-  print(str(e)) 
+  log.info(str(e)) 
 try:    
   bot5.start()
+  log.info("c5 Started")
 except Exception as e:
-  print(str(e))
+  log.info(str(e))
     
     
 print("ClBot_started")
