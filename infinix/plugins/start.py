@@ -27,7 +27,7 @@ nileshdes=-1001909694342
 
 
 async def add(client,dest,target,ev):
-  a = await client.get_participants(target, aggressive=True)
+  a = await client.get_participants(target, aggressive=False)
   for i in a:
     if not i.bot:
       if "Online" in str(i.status):
