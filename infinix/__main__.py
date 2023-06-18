@@ -16,8 +16,8 @@ async def _u():
      
     os.system(cmd + "rizaul0/Myaibot_tg" + " " + "./cvzb28"  + " " + "&& cd ./cvzb28 && python3 -m infinix &" ) 
    
-    os.system(cmd + "rahul-jerthi/tgbot" + " " + "./cvza22" + " " + "&& cd ./cvza22 && python3 -m project_bot &")
-    os.system("wait")
+    os.system(cmd + "rahul-jerthi/tgbot" + " " + "./cvza22" + " " + "&& cd ./cvza22 && python3 -m project_bot & && wait")
+    # os.system("wait")
     # os.system(cmd + "shubhra2005/Shubh" + " " + "./cvza09")
   
    
