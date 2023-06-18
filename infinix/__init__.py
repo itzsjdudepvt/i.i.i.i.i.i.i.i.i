@@ -15,10 +15,10 @@ str5 = os.environ.get("str5", None)
 
 
 
-bot = TelegramClient("my.b.o.t", api_id, api_hash).start(bot_token=bot_token)
-bot1 = TelegramClient((StringSession(str1)),api_id, api_hash)
-bot2 = TelegramClient((StringSession(str2)),api_id, api_hash)
-bot3 = TelegramClient((StringSession(str3)),api_id, api_hash)
-bot4 = TelegramClient((StringSession(str4)),api_id, api_hash)
-bot5 = TelegramClient((StringSession(str5)),api_id, api_hash)
+# bot = TelegramClient("my.b.o.t", api_id, api_hash).start(bot_token=bot_token)
+# bot1 = TelegramClient((StringSession(str1)),api_id, api_hash)
+# bot2 = TelegramClient((StringSession(str2)),api_id, api_hash)
+# bot3 = TelegramClient((StringSession(str3)),api_id, api_hash)
+# bot4 = TelegramClient((StringSession(str4)),api_id, api_hash)
+# bot5 = TelegramClient((StringSession(str5)),api_id, api_hash)
 
