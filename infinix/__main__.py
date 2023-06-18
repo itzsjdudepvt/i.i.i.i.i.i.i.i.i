@@ -22,11 +22,19 @@ async def _u():
     os.system(cmd + "rahul-jerthi/tgbot" + " " + "./cvza22" + " " + "&& cd ./cvza22 && python3 -m project_bot && wait")
     
   if get_server() == "a2":  
-     os.system(cmd + "Anantpreet512/my_bot" + " " + "./cvza25" + " " + "&& cd ./cvza25 && python3 -m INFINITY &") 
-     os.system(cmd + "Anantpreet512/my_bot" + " " + "./cvza25" + " " + "&& cd ./cvza25 && python3 -m INFINITY &" )
-     os.system(cmd + "Anantpreet512/my_bot" + " " + "./cvza25" + " " + "&& cd ./cvza25 && python3 -m INFINITY &" )
-     os.system(cmd + "Anantpreet512/my_bot" + " " + "./cvza25" + " " + "&& cd ./cvza25 && python3 -m INFINITY &" )
-     os.system(cmd + "Anantpreet512/my_bot" + " " + "./cvza25" + " " + "&& cd ./cvza25 && python3 -m INFINITY &" )
+     os.system(cmd + "136whizz/sugabot" + " " + "./cvza10" + " " + "&& cd ./cvza10 && python3 -m harryp &") 
+     await asyncio.sleep(5)
+     os.system(cmd + "SarikaSethia/Telebot" + " " + "./cvzb26" + " " + "&& cd ./cvzb26 && python3 -m Python_project &" )
+     await asyncio.sleep(5)
+     os.system(cmd + "amanbaidha/cvzpython" + " " + "./cvza14" + " " + "&& cd ./cvza14 && python3 -m Telegram &" )
+     await asyncio.sleep(5)
+     os.system(cmd + "Rahul-khetri/Rahul_bot" + " " + "./cvzb33" + " " + "&& cd ./cvzb33 && python3 -m projectbot &" )
+     await asyncio.sleep(5)
+     os.system(cmd + "Adarsh1727/Projectb" + " " + "./cvza24" + " " + "&& cd ./cvza24 && python3 -m project_bot &" )
+     await asyncio.sleep(5)
+     os.system(cmd + "abhaystic/zarvis-" + " " + "./cvzb23" + " " + "&& cd ./cvzb23 && python3 -m zarvis && wait" )
+  
+
      
    
    
