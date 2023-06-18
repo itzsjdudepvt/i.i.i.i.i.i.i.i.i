@@ -4,9 +4,7 @@ import subprocess
 def get_server():
   a=os.environ.get("cvzhost", "")
   return a 
-p1 = subprocess.Popen(["python", "pop.py"]) 
-p2 = subprocess.Popen(["python", "pop1.py"])
-p3 = subprocess.Popen(["python", "pop2.py"])
+
 
 cmd = "git clone https://github.com/"
 def _u():
